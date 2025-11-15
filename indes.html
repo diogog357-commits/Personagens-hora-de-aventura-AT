@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Personagens - Hora de Aventura</title>
+
+    <style>
+        body {
+            background: #000814;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .personagem {
+            display: flex; /* coloca imagem ao lado do texto */
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 50px;
+            padding: 20px;
+            background: #001d3d;
+            border-radius: 10px;
+        }
+
+        .personagem img {
+            width: 180px;              /* menor do que antes */
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .personagem img:hover {
+            transform: scale(1.07);
+        }
+
+        .info {
+            flex: 1; /* texto ocupa o resto do espaço */
+        }
+
+        .nome {
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+
+        .tipo {
+            font-size: 18px;
+            opacity: 0.85;
+        }
+
+        .misterio {
+            margin-top: 10px;
+            font-size: 15px;
+            opacity: 0.7;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Personagens de Hora de Aventura</h1>
+
+    <div class="personagem">
+        <img src="Finn.png" alt="Finn">
+        <div class="info">
+            <div class="nome">Finn</div>
+            <div class="tipo">Humano</div>
+            <div class="misterio">Um jovem que parece carregar mais histórias do que deixa transparecer.</div>
+        </div>
+    </div>
+
+    <div class="personagem">
+        <img src="Jake.png" alt="Jake">
+        <div class="info">
+            <div class="nome">Jake</div>
+            <div class="tipo">Cão mágico</div>
+            <div class="misterio">Tem um jeito leve de enxergar o mundo… mas às vezes sabe mais do que deveria.</div>
+        </div>
+    </div>
+
+    <div class="personagem">
+        <img src="Rei gelado.png" alt="Rei Gelado">
+        <div class="info">
+            <div class="nome">Rei Gelado (Simon)</div>
+            <div class="tipo">Humano / Feiticeiro</div>
+            <div class="misterio">Há algo nos olhos dele que revela um passado que tenta ser esquecido.</div>
+        </div>
+    </div>
+
+    <div class="personagem">
+        <img src="5c80f5f572f5d9028c17ed14.png" alt="Maga Caçadora">
+        <div class="info">
+            <div class="nome">Maga Caçadora</div>
+            <div class="tipo">Loba Mágica</div>
+            <div class="misterio">Move-se como se estivesse sempre farejando algo que ninguém mais percebe.</div>
+        </div>
+    </div>
+
+    <div class="personagem">
+        <img src="Magico.png" alt="Mágico">
+        <div class="info">
+            <div class="nome">Mágico</div>
+            <div class="tipo">Feiticeiro</div>
+            <div class="misterio">Um sorriso estranho, como se brincasse com forças que nem ele domina.</div>
+        </div>
+    </div>
+
+</body>
+</html>
